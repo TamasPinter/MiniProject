@@ -11,10 +11,18 @@
 <body>
     <!--Header section, fixed with scroll, nav bar-->
     <header>
-<p><a href="./index.html">Main Page</p></a>
-<p><a href="./Rivalries.html">Rivalries</p></a>
-<p><a href="./Trophies.html">Trophies</p></a>
+        <!-- try unordered list and inline-->
+        <ul>
+    <a href="./index.html">Main Page</a>
+        <a href="./Rivalries.html">Rivalries </a>
+    
+    <a href="./Trophies.html">Trophies</a>
+    <a href="#contact">Contact Us</a>
+</ul>
     </header>
+    <br>
+    <br>
+    <br>
     <h1 style="text-align: center">Liverpool F.C.</h1>
     <br>
     <br>
@@ -58,10 +66,29 @@
     </img>
     </section>
     <!--Email Mailing List-->
-    <p>Want to subscribe? Fill out your name and email here!</p>
-    <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10">
+    <p style="text-align:center">Want to subscribe? Fill out your name and email here!</p>
+    <!--<input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10">
     <input type="email" id="email" size="30" required> 
-    <input type="submit">
+    <input type="submit">-->
+    
+    <div id="contact" style="text-align:center">
+        <label for="name">
+            <span>Name: </span>
+            <strong><span aria-label="required">*</span></strong>
+        </label>
+        <input type="text" id="name" name="username">
+        <p>
+            <label for="mail">
+                <span>Email: </span>
+                <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="email" id="mail" name="usermail">
+        </p>
+        <p> 
+            <input type="submit">
+        </p>
+    </div>
+    </contact>
     <footer>
         <!--copyright info and author-->
         <p style="text-align: center">Author: Tamas Pinter ©2023<br>
