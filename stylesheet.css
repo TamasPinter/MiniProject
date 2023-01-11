@@ -1,0 +1,79 @@
+/* Universal Selector */
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
+/* Element selectors */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 120px;
+    background-color: rgba(254, 254, 255, 0.116);
+    border-color: 5px black;
+    border-style: solid;
+    display: inline;
+}
+
+body {
+    
+    background-color: rgba(248, 0, 0, 0.863);
+}
+
+/* Class Selectors */
+.bubble {
+    padding: 10px;
+    background-color: rgba(216, 216, 216, 0.411);
+    border: 2px black solid;
+    font-size: larger
+}
+
+/* ID selectors */
+#image1 {
+    width: 175px;
+    height: 175px;
+    display: block;
+    position: relative;
+    left: 700px;
+    margin: 8px rgb(58, 58, 58);
+    border: solid 5px black;
+}
+
+#bigimage {
+    width: 600px;
+    height: 450px;
+    position: relative;
+    left: 480px;
+    border: solid 5px black;
+    background-color: whitesmoke;
+}
+
+#image2 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    right: 127px;
+    bottom: 80px;
+    border: solid 2px black;
+}
+
+#image3 {
+    width: 385px;
+    height: 220px;
+    position: relative;
+    
+    right: 128px;
+    bottom: 6px;
+    border: solid 2px black;
+}
+
+#image4 {
+    width: 385px;
+    height: 220px;
+    position: relative;
+    
+    left: 694px;
+    bottom: 458px;
+    border: solid 2px black;
+}
